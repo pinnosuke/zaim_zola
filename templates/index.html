@@ -20,6 +20,10 @@
     href="{{get_url(path="favicon.ico")}}"
   />
   <link rel="stylesheet" href="{{get_url(path="style.css")}}"/>
+  {% if config.extra.custom_css %}
+  <link rel="stylesheet" href="{{get_url(path=config.extra.custom_css)}}"/>
+  {% endif %}
+
   {% if page.title %}
   <title>{{page.title}}</title>
   {% else %}
