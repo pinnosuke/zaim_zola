@@ -1,31 +1,30 @@
-name = "Hermit_Zola"
-description = "Minimal Zola theme"
+name = "Zaim_Zola"
+description = "Heartful Zola theme"
 license = "MIT"
-homepage = "https://github.com/VersBinarii/hermit_zola"
+homepage = "https://github.com/pinnnosuke/zaim_zola"
 min_version = "0.4.0"
-demo = "https://versbinarii.gitlab.io/blog/"
 
 [extra]
 home_subtitle = "Some profound and catchy statement"
 
 footer_copyright = ''
 
-hermit_menu = [
+zaim_menu = [
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" }
 ]
 
-hermit_social = [
+zaim_social = [
     { name = "twitter", link = "https://twitter.com" },
     { name = "github", link = "https://github.com" },
     { name = "email", link = "mailto:name@domain.com" }
 ]
 
 [author]
-name = "VersBinarii"
-homepage = "https://versbinarii.gitlab.io/blog/"
-repo = "https://github.com/VersBinarii/hermit_zola"
+name = "pinnosuke"
+homepage = "https://github.io/pinnosuke/"
+repo = "https://github.com/pinnosuke/zaim_zola"
 
 [original]
-author =  "Track3"
-repo = "https://github.com/Track3/hermit"
+author = "VersBinarii"
+repo = "https://github.com/VersBinarii/hermit_zola"
